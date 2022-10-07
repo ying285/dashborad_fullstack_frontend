@@ -1,0 +1,58 @@
+.formInput {
+    margin-bottom: 2rem;
+  
+    input {
+      margin-bottom: 0.9rem;
+      border: none;
+      border-bottom: 1px solid #cccc;
+      margin-top: 0.3rem;
+      padding: 0.5rem 15rem 0.5rem 0;
+      outline: none;
+      background-color: rgb(154, 150, 150);
+    }
+  
+    input:-webkit-autofill {
+      transition: background-color 5000s ease-in-out 0s;
+    }
+  
+    label {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .formInput {
+      input{
+        padding: 0.3rem 7rem 0.3rem 0;
+      }
+      input::placeholder {
+         font-size: .7rem;
+     }
+      label{
+        font-size: .7rem;
+  
+      }
+     
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .formInput {
+      input{
+        padding: 0.3rem 0rem 0.3rem 0;
+        margin-bottom: 0.2rem;
+        margin-top: 0.1rem;
+        
+      }
+      input::placeholder {
+         font-size: .5rem;
+     }
+      label{
+        font-size: .5rem;
+  
+      }
+  
+      
+     
+    }
+  }

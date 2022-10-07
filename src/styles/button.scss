@@ -1,0 +1,35 @@
+.btn1 {
+    background-color: darkorange;
+    border: 0;
+    padding: 0.5rem 11.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+  }
+  
+  .btn1:hover {
+    background-color: lighten(darkorange, 20%);
+    color: rgb(1, 1, 1);
+  }
+  
+  .btn1:active {
+    transform: translateY(3px);
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .btn1{
+      padding: 0.3rem 8.2rem;
+      font-size: .7rem;
+  
+    }
+  
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .btn1{
+      padding: 0.3rem 5rem;
+      font-size: .5rem;
+      margin-top: .5rem;
+    }
+  }

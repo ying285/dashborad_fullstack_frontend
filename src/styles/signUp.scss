@@ -1,0 +1,67 @@
+.authMain {
+    background-color: rgb(154, 150, 150);
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+  
+    &_link {
+      font-weight: 600;
+      color: #575757;
+      text-decoration: none;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+  
+  
+    h3 {
+      color: #575757;
+      margin-bottom: 4rem;
+      text-align: center;
+    }
+  
+    &__form {
+      margin-top: 2rem;
+  
+    
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .authMain {
+      h3{
+        font-size: 1rem;
+        text-align: center;
+      }
+  
+      p{
+        font-size: .7rem;
+        text-align: center;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .authMain {
+     
+      align-items: flex-start;
+      
+      
+      
+      h3{
+        font-size: .6rem;
+       
+        margin-bottom: 2rem;
+      }
+  
+      p{
+        font-size: .5rem;
+       
+      }
+    }
+  }

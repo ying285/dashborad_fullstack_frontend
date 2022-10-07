@@ -1,0 +1,106 @@
+@import './variables.scss';
+
+.slide{
+    background-color: $primaryColor;
+    width: 20%;
+    height: 100vh;
+   
+    &_link {
+        text-decoration: none;
+      }
+
+    &_link2{
+      text-decoration: none;
+      color:$fontColor;
+    }
+
+    &_link2:hover{
+      color:$seconaryColor;
+    }
+    
+      &_item {
+        display: flex;
+        color: $fontColor;
+      }
+    
+    
+    
+      &_logo {
+        text-align: center;
+        margin-top: 15%;
+        
+        
+        
+    
+        h2 {
+          font-family: "Permanent Marker", cursive;
+          color: $seconaryColor;
+          font-size: 1.6rem;
+        }
+      }
+    
+      &_list {
+        list-style: none;
+        display: flex;
+        margin-left: 18%;
+        flex-direction: column;
+        gap: 2.5rem;
+        margin-top: 15%;
+        padding: 2rem 0;
+    
+        span {
+          margin-left: 2rem;
+          font-size: 1rem;
+        }
+      }
+    
+      i {
+        font-size: 1.2rem;
+      }
+    
+      &_logout {
+        margin-left: 30%;
+        margin-top: 90%;
+        color: $fontColor;
+        font-weight: bold;
+    
+        i {
+          font-size: 1rem;
+          cursor: pointer;
+        }
+      }
+    
+      &_logout:hover {
+        color: $seconaryColor;
+        font-weight: bold;
+      }
+    }
+    
+   
+    
+
+.active{
+    
+    background-color: darkorange;
+    padding: 0.5rem 1rem;
+    width: 12rem;
+    border-radius: 5px;
+    margin: -1rem;
+
+    span {
+      color: black;
+      font-weight: bold;
+    }
+
+    i {
+      color: black;
+    }
+  
+}
+
+@media only screen and (max-width: 1200px) {
+    .slide{
+        display: none; 
+    }
+   
+}

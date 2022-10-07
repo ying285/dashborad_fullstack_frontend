@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.expenses2,.newcustomers2,.onlinesales2,.revenue2{
+ background-color: $primaryColor;
+ border-radius: 10px;
+ box-shadow: $boxShadow;
+}
+
+.expenses2 {
+  font-size: .8rem;
+  padding: 1.5rem;
+ 
+  }
+.onlinesales2{
+  padding: .5rem;
+  font-size: .8rem;
+    
+}
+
+  .newcustomers2 {
+    font-size: .8rem;
+   
+  
+    &_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //margin-top: -1.1rem;
+    }
+  
+    &_title div {
+      height: 0.8rem;
+      width: 0.8rem;
+      background-color: #8884d8;
+      margin-right: 0.5rem;
+    }
+  
+    &_title span {
+      color: #8884d8;
+    }
+  }
+
+  
+.revenue2{
+  font-size: .8rem;
+}
+
+ 
+  

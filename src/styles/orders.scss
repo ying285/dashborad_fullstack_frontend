@@ -1,0 +1,37 @@
+@import './variables.scss';
+    .orders {
+        background-color: $primaryColor;
+        border-radius: 10px;
+        box-shadow: $boxShadow;
+       
+       padding: .7rem;
+       
+      
+        &_info {
+          color: $fontColor;
+          text-align: center;
+          font-size: 0.8rem;
+        }
+      
+        h2 {
+          font-size: 1rem;
+        }
+      
+        h5 {
+          font-size: 1.1rem;
+          color: $seconaryColor;
+          font-weight: bold;
+        }
+      
+        &_growth {
+          span {
+            font-size: .8rem;
+            color: $fontColor;
+            padding: 0 0.3rem;
+            background-color: lighten($seconaryColor, 10%);
+            border-radius: 10px;
+            opacity: 1;
+          }
+        }
+      }
+    

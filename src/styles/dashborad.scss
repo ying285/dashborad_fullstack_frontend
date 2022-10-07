@@ -1,0 +1,62 @@
+.dashborad{
+    width: 80%;
+   
+   
+
+    &_row1{
+        
+    min-height: 36vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin:1rem;
+    
+        
+    }
+
+    &_row2{
+    min-height: 36vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    margin: 1rem;
+    }
+
+    &_row3{
+        min-height: 35vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+        margin: 1rem;
+        }
+       
+
+   
+}
+
+@media only screen and (max-width: 1200px) {
+    .dashborad{
+       width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 1120px) {
+
+    .dashborad{
+
+    &_row1, &_row2, &_row3{
+        grid-template-columns: 1fr 
+       
+    }
+
+    
+
+    }
+  
+   
+}
+
+
+   
+  
