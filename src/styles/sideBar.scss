@@ -33,7 +33,7 @@
         
     
         h2 {
-          font-family: "Permanent Marker", cursive;
+          font-family: primaryFontFamily;
           color: $seconaryColor;
           font-size: 1.6rem;
         }
@@ -81,7 +81,7 @@
 
 .active{
     
-    background-color: darkorange;
+    background-color: $seconaryColor;
     padding: 0.5rem 1rem;
     width: 12rem;
     border-radius: 5px;
