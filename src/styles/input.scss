@@ -10,6 +10,10 @@
       outline: none;
       background-color: rgb(154, 150, 150);
     }
+
+    input::placeholder {
+      font-size: .7rem;
+  }
   
     input:-webkit-autofill {
       transition: background-color 5000s ease-in-out 0s;
@@ -17,6 +21,7 @@
   
     label {
       display: block;
+      font-size: .9rem;
     }
   }
   
